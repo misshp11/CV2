@@ -30,9 +30,6 @@ model.compile(optimizer=tf.keras.optimizers.Adamax(learning_rate=0.002), loss='S
 ![image info](https://github.com/misshp11/CV2/blob/main/img/изображение_2023-04-05_011104903.png)                                                   
 
 Дальше у нас пошло обучение модели.
-```python
-model.compile(optimizer=tf.keras.optimizers.Adamax(learning_rate=0.002), loss='SparseCategoricalCrossentropy', metrics=['accuracy'])
-```
 ![image info](https://github.com/misshp11/CV2/blob/main/img/изображение_2023-04-05_011342097.png) 
 
 Проверим на тестовой выборке насколько хорошо обучилась наша модель.
